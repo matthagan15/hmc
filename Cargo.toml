@@ -1,0 +1,10 @@
+[package]
+name = "hmc"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "hmc"
+path = "src/lib.rs"
+
+[dependencies]
