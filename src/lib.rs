@@ -14,6 +14,7 @@ impl<F> HamiltonianSystem<F>
 where
     F: Fn(&[f64]) -> f64,
 {
+    /// sets all mass dimensions equal for now
     pub fn new(initial_x: Vec<f64>, initial_p: Vec<f64>, potential_energy: F, mass: f64) -> Self {
         Self {
             x: initial_x,
